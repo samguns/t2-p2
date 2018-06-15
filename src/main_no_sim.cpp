@@ -98,8 +98,8 @@ static void ukfProcess() {
 
         VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
 
-        cout << "estimation " << endl << estimate << endl;
-        cout << "RMSE " << endl << RMSE << endl;
+//        cout << "estimation " << endl << estimate << endl;
+//        cout << "RMSE " << endl << RMSE << endl;
     }
 }
 
